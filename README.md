@@ -24,9 +24,17 @@ Repositório com exemplos e exercícios sobre orientação a objetos em Python.
 
 ## Estrutura sugerida
 
-- src/         -> código fonte com exemplos
-- tests/       -> testes (opcional)
-- docs/        -> documentação adicional
+objetos-python/
+│
+Exemplo
+    ├── src/                     
+    │   ├── main.py              -> código fonte
+    │   ├── models/              -> pasta para criar objetos
+    │   │   └── __init__.py
+    │   ├── tests/               -> testes (opcional)
+    │   └── docs/                -> documentação adicional
+    │
+    └── README.md
 
 ## Contribuição
 
